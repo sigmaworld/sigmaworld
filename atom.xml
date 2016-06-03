@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://metideas.com/"/>
-  <updated>2016-06-03T20:44:43.000Z</updated>
+  <updated>2016-06-03T21:55:18.000Z</updated>
   <id>http://metideas.com/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TimeMachine</title>
+    <link href="http://metideas.com/2016/06/03/TimeMachine/"/>
+    <id>http://metideas.com/2016/06/03/TimeMachine/</id>
+    <published>2016-06-03T21:55:18.000Z</published>
+    <updated>2016-06-03T21:55:18.000Z</updated>
+    
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;!-- indicate-the-source --&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;!-- indicate-the-source --&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Core-Python-Programming</title>
