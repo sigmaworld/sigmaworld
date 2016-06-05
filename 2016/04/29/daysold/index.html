@@ -6,16 +6,19 @@
   
   <title>Days Old | MetIdeas</title>
   <meta name="viewport" content="width=device-width">
-  <meta name="description" content="This problem is the focus of the How To Solve Problems Lesson (after Unit 2).Example: if you were born on 29 June 2012, and todays date is 30 June 2012 you are 1 day old. The procedure should output 1">
+  <meta name="description" content="This problem is the focus of the How To Solve Problems Lesson (after Unit 2).
+Example: if you were born on 29 June 2012, and todays date is 30 June 2012 you are 1 day old. The procedure should output">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Days Old">
 <meta property="og:url" content="http://metideas.com/2016/04/29/daysold/index.html">
 <meta property="og:site_name" content="MetIdeas">
-<meta property="og:description" content="This problem is the focus of the How To Solve Problems Lesson (after Unit 2).Example: if you were born on 29 June 2012, and todays date is 30 June 2012 you are 1 day old. The procedure should output 1">
+<meta property="og:description" content="This problem is the focus of the How To Solve Problems Lesson (after Unit 2).
+Example: if you were born on 29 June 2012, and todays date is 30 June 2012 you are 1 day old. The procedure should output">
 <meta property="og:updated_time" content="2016-06-03T19:12:35.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Days Old">
-<meta name="twitter:description" content="This problem is the focus of the How To Solve Problems Lesson (after Unit 2).Example: if you were born on 29 June 2012, and todays date is 30 June 2012 you are 1 day old. The procedure should output 1">
+<meta name="twitter:description" content="This problem is the focus of the How To Solve Problems Lesson (after Unit 2).
+Example: if you were born on 29 June 2012, and todays date is 30 June 2012 you are 1 day old. The procedure should output">
   
   
   <link rel="shortcut icon" href="/icons/favicon.ico" type="image/x-icon" />
@@ -72,15 +75,13 @@ ga('send', 'pageview');
         
           <a class="main-nav-link" href="/">Home</a>
         
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
           <a class="main-nav-link" href="/tags">Tags</a>
+        
+          <a class="main-nav-link" href="/todo">ToDo</a>
         
           <a class="main-nav-link" href="/douban">Reading</a>
         
           <a class="main-nav-link" href="/about">About</a>
-        
-          <a class="main-nav-link" href="/TimeMachine">Time Machine</a>
         
       </nav>
       
@@ -101,15 +102,13 @@ ga('send', 'pageview');
       
         <td><a class="main-nav-link" href="/">Home</a></td>
       
-        <td><a class="main-nav-link" href="/archives">Archives</a></td>
-      
         <td><a class="main-nav-link" href="/tags">Tags</a></td>
+      
+        <td><a class="main-nav-link" href="/todo">ToDo</a></td>
       
         <td><a class="main-nav-link" href="/douban">Reading</a></td>
       
         <td><a class="main-nav-link" href="/about">About</a></td>
-      
-        <td><a class="main-nav-link" href="/TimeMachine">Time Machine</a></td>
       
       <td>
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><input type="hidden" name="sitesearch" value="http://metideas.com"></form>
@@ -131,7 +130,7 @@ ga('send', 'pageview');
     </div>
     <div class="article-info profile-block">
       <div class="article-info-block">
-        8
+        7
         <span>posts</span>
       </div>
       <div class="article-info-block">
@@ -229,7 +228,16 @@ ga('send', 'pageview');
           
         </div>
       
-        <p>This problem is the focus of the How To Solve Problems Lesson (after Unit 2).<br>Example: if you were born on 29 June 2012, and todays date is 30 June 2012 you are 1 day old. The procedure should output 1.<br>Hints<br>A non-leap year is 365 days. A leap year is 366 days. See <a href="http://en.wikipedia.org/wiki/Leap_year#Algorithm" target="_blank" rel="external">http://en.wikipedia.org/wiki/Leap_year#Algorithm</a> for rules on leap years.<br>If you know how many days it is from 1 Jan until a certain date, you also know how many days there are left from that date until 31 Dec.<br>You may want to define some helper procedures. For example, a procedure that determines if a year is a leap year.<br>If you’ve already finished Unit 3 and learned about lists in Python, you may want to use this definition of a list that maps month numbers to the number of days in the month:<br>daysOfMonths = [ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]<br><a id="more"></a><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">leap_year</span><span class="params">(y)</span>:</span>   <span class="comment">#判断是否是闰年</span></span><br><span class="line">     <span class="keyword">if</span> (y % <span class="number">4</span> == <span class="number">0</span> <span class="keyword">and</span> y % <span class="number">100</span> != <span class="number">0</span>) <span class="keyword">or</span> y % <span class="number">400</span> == <span class="number">0</span>:</span><br><span class="line">         <span class="keyword">return</span> <span class="keyword">True</span></span><br><span class="line">     <span class="keyword">else</span>:</span><br><span class="line">         <span class="keyword">return</span> <span class="keyword">False</span></span><br><span class="line"></span><br><span class="line"> <span class="function"><span class="keyword">def</span> <span class="title">days_in_month</span><span class="params">(y, m)</span>:</span>    <span class="comment">#判断每个月都有几天</span></span><br><span class="line">     <span class="keyword">if</span> m <span class="keyword">in</span> [<span class="number">1</span>, <span class="number">3</span>, <span class="number">5</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">10</span>, <span class="number">12</span>]:</span><br><span class="line">         <span class="keyword">return</span> <span class="number">31</span></span><br><span class="line">     <span class="keyword">elif</span> m <span class="keyword">in</span> [<span class="number">4</span>, <span class="number">6</span>, <span class="number">9</span>, <span class="number">11</span>]:</span><br><span class="line">         <span class="keyword">return</span> <span class="number">30</span></span><br><span class="line">     <span class="keyword">else</span>:</span><br><span class="line">         <span class="keyword">if</span> leap_year(y):</span><br><span class="line">             <span class="keyword">return</span> <span class="number">29</span></span><br><span class="line">         <span class="keyword">else</span>:</span><br><span class="line">             <span class="keyword">return</span> <span class="number">28</span></span><br><span class="line"></span><br><span class="line"> <span class="function"><span class="keyword">def</span> <span class="title">days_this_year</span><span class="params">(year)</span>:</span>   <span class="comment">#判断今年共几天</span></span><br><span class="line">     <span class="keyword">if</span> leap_year(year):</span><br><span class="line">         <span class="keyword">return</span> <span class="number">366</span></span><br><span class="line">     <span class="keyword">else</span>:</span><br><span class="line">         <span class="keyword">return</span> <span class="number">365</span></span><br><span class="line"></span><br><span class="line"> <span class="function"><span class="keyword">def</span> <span class="title">days_passed</span><span class="params">(year, month, day)</span>:</span>  <span class="comment">#判断今年过了几天</span></span><br><span class="line">     m = <span class="number">1</span></span><br><span class="line">     days = <span class="number">0</span></span><br><span class="line">     <span class="keyword">while</span> m &lt; month:</span><br><span class="line">         days += days_in_month(year, m)</span><br><span class="line">         m += <span class="number">1</span></span><br><span class="line">     <span class="keyword">return</span> days + day</span><br><span class="line"></span><br><span class="line"> <span class="function"><span class="keyword">def</span> <span class="title">daysBetweenDates</span><span class="params">(year1, month1, day1, year2, month2, day2)</span>:</span></span><br><span class="line">     <span class="comment">##</span></span><br><span class="line">     <span class="comment"># Your code here.</span></span><br><span class="line">     <span class="comment">##</span></span><br><span class="line">     <span class="keyword">if</span> year1 == year2:</span><br><span class="line">         <span class="keyword">return</span> days_passed(year2, month2, day2) - days_passed(year1, month1, day1)</span><br><span class="line">     <span class="keyword">else</span>:</span><br><span class="line">         sum1 = <span class="number">0</span></span><br><span class="line">         y1 = year1</span><br><span class="line">         <span class="keyword">while</span> y1 &lt; year2:</span><br><span class="line">             sum1 += days_this_year(y1)</span><br><span class="line">             y1 += <span class="number">1</span></span><br><span class="line">        <span class="keyword">return</span> sum1-days_passed(year1,month1,day1)+days_passed(year2,month2,day2)</span><br></pre></td></tr></table></figure></p>
+        <p>This problem is the focus of the How To Solve Problems Lesson (after Unit 2).
+Example: if you were born on 29 June 2012, and todays date is 30 June 2012 you are 1 day old. The procedure should output 1.
+Hints
+A non-leap year is 365 days. A leap year is 366 days. See http://en.wikipedia.org/wiki/Leap_year#Algorithm for rules on leap years.
+If you know how many days it is from 1 Jan until a certain date, you also know how many days there are left from that date until 31 Dec.
+You may want to define some helper procedures. For example, a procedure that determines if a year is a leap year.
+If you've already finished Unit 3 and learned about lists in Python, you may want to use this definition of a list that maps month numbers to the number of days in the month:
+daysOfMonths = [ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]</p>
+<a id="more"></a>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">leap_year</span><span class="params">(y)</span>:</span>   <span class="comment">#判断是否是闰年</span></span><br><span class="line">     <span class="keyword">if</span> (y % <span class="number">4</span> == <span class="number">0</span> <span class="keyword">and</span> y % <span class="number">100</span> != <span class="number">0</span>) <span class="keyword">or</span> y % <span class="number">400</span> == <span class="number">0</span>:</span><br><span class="line">         <span class="keyword">return</span> <span class="keyword">True</span></span><br><span class="line">     <span class="keyword">else</span>:</span><br><span class="line">         <span class="keyword">return</span> <span class="keyword">False</span></span><br><span class="line"></span><br><span class="line"> <span class="function"><span class="keyword">def</span> <span class="title">days_in_month</span><span class="params">(y, m)</span>:</span>    <span class="comment">#判断每个月都有几天</span></span><br><span class="line">     <span class="keyword">if</span> m <span class="keyword">in</span> [<span class="number">1</span>, <span class="number">3</span>, <span class="number">5</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">10</span>, <span class="number">12</span>]:</span><br><span class="line">         <span class="keyword">return</span> <span class="number">31</span></span><br><span class="line">     <span class="keyword">elif</span> m <span class="keyword">in</span> [<span class="number">4</span>, <span class="number">6</span>, <span class="number">9</span>, <span class="number">11</span>]:</span><br><span class="line">         <span class="keyword">return</span> <span class="number">30</span></span><br><span class="line">     <span class="keyword">else</span>:</span><br><span class="line">         <span class="keyword">if</span> leap_year(y):</span><br><span class="line">             <span class="keyword">return</span> <span class="number">29</span></span><br><span class="line">         <span class="keyword">else</span>:</span><br><span class="line">             <span class="keyword">return</span> <span class="number">28</span></span><br><span class="line"></span><br><span class="line"> <span class="function"><span class="keyword">def</span> <span class="title">days_this_year</span><span class="params">(year)</span>:</span>   <span class="comment">#判断今年共几天</span></span><br><span class="line">     <span class="keyword">if</span> leap_year(year):</span><br><span class="line">         <span class="keyword">return</span> <span class="number">366</span></span><br><span class="line">     <span class="keyword">else</span>:</span><br><span class="line">         <span class="keyword">return</span> <span class="number">365</span></span><br><span class="line"></span><br><span class="line"> <span class="function"><span class="keyword">def</span> <span class="title">days_passed</span><span class="params">(year, month, day)</span>:</span>  <span class="comment">#判断今年过了几天</span></span><br><span class="line">     m = <span class="number">1</span></span><br><span class="line">     days = <span class="number">0</span></span><br><span class="line">     <span class="keyword">while</span> m &lt; month:</span><br><span class="line">         days += days_in_month(year, m)</span><br><span class="line">         m += <span class="number">1</span></span><br><span class="line">     <span class="keyword">return</span> days + day</span><br><span class="line"></span><br><span class="line"> <span class="function"><span class="keyword">def</span> <span class="title">daysBetweenDates</span><span class="params">(year1, month1, day1, year2, month2, day2)</span>:</span></span><br><span class="line">     <span class="comment">##</span></span><br><span class="line">     <span class="comment"># Your code here.</span></span><br><span class="line">     <span class="comment">##</span></span><br><span class="line">     <span class="keyword">if</span> year1 == year2:</span><br><span class="line">         <span class="keyword">return</span> days_passed(year2, month2, day2) - days_passed(year1, month1, day1)</span><br><span class="line">     <span class="keyword">else</span>:</span><br><span class="line">         sum1 = <span class="number">0</span></span><br><span class="line">         y1 = year1</span><br><span class="line">         <span class="keyword">while</span> y1 &lt; year2:</span><br><span class="line">             sum1 += days_this_year(y1)</span><br><span class="line">             y1 += <span class="number">1</span></span><br><span class="line">        <span class="keyword">return</span> sum1-days_passed(year1,month1,day1)+days_passed(year2,month2,day2)</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -294,24 +302,6 @@ ga('send', 'pageview');
     <h3 class="widget-title">recents</h3>
     <div class="widget">
       <ul id="recent-post" class="">
-        
-          <li>
-            
-            <div class="item-thumbnail">
-              <a href="/2016/06/03/TimeMachine/" class="thumbnail">
-  
-    <span style="background-image:url(http://ww3.sinaimg.cn/mw690/7176c9b5gw1f4iiod5euqj21kw11xtv3.jpg)" alt="TimeMachine" class="thumbnail-image"></span>
-  
-</a>
-            </div>
-            
-            <div class="item-inner">
-
-              <p class="item-title"><a href="/2016/06/03/TimeMachine/" class="title">TimeMachine</a></p>
-              <!-- <p class="item-category"></p> -->
-              <!-- <p class="item-date"><time datetime="2016-06-03T21:55:18.000Z" itemprop="datePublished">2016-06-03</time></p> -->
-            </div>
-          </li>
         
           <li>
             
@@ -382,6 +372,24 @@ ga('send', 'pageview');
               <p class="item-title"><a href="/2016/05/09/record/" class="title">Recorded Event ①</a></p>
               <!-- <p class="item-category"></p> -->
               <!-- <p class="item-date"><time datetime="2016-05-09T04:00:00.000Z" itemprop="datePublished">2016-05-09</time></p> -->
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              <a href="/2016/04/30/claude-shannon/" class="thumbnail">
+  
+    <span style="background-image:url(http://www.newyorker.com/wp-content/uploads/2016/04/Roberts-Claude-Shannon-1200x630-1461943553.jpg)" alt="Claude Shannon, The father of the information age, Turns 1100100" class="thumbnail-image"></span>
+  
+</a>
+            </div>
+            
+            <div class="item-inner">
+
+              <p class="item-title"><a href="/2016/04/30/claude-shannon/" class="title">Claude Shannon, The father of the information age, Turns 1100100</a></p>
+              <!-- <p class="item-category"><a class="article-category-link" href="/categories/Droplets/">Droplets</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Droplets/Story/">Story</a></p> -->
+              <!-- <p class="item-date"><time datetime="2016-04-30T18:43:55.000Z" itemprop="datePublished">2016-04-30</time></p> -->
             </div>
           </li>
         
