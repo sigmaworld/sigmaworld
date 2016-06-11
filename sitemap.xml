@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://metideas.com/2016/06/11/functional-programming/</loc>
+    
+    <lastmod>2016-06-11T05:49:32.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://metideas.com/tags/index.html</loc>
+    
+    <lastmod>2016-06-11T02:10:45.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://metideas.com/archives/index.html</loc>
+    
+    <lastmod>2016-06-11T02:10:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://metideas.com/2016/06/03/Core-Python-Programming/</loc>
     
     <lastmod>2016-06-05T02:37:11.000Z</lastmod>
@@ -51,7 +72,7 @@
   </url>
   
   <url>
-    <loc>http://metideas.com/2016/04/29/daysold/</loc>
+    <loc>http://metideas.com/Log/index.html</loc>
     
     <lastmod>2016-06-03T19:12:35.000Z</lastmod>
     
@@ -65,13 +86,6 @@
   </url>
   
   <url>
-    <loc>http://metideas.com/404.html</loc>
-    
-    <lastmod>2016-06-03T19:12:35.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://metideas.com/Memo/index.html</loc>
     
     <lastmod>2016-06-03T19:12:35.000Z</lastmod>
@@ -79,7 +93,7 @@
   </url>
   
   <url>
-    <loc>http://metideas.com/Log/index.html</loc>
+    <loc>http://metideas.com/2016/04/29/daysold/</loc>
     
     <lastmod>2016-06-03T19:12:35.000Z</lastmod>
     
@@ -87,6 +101,13 @@
   
   <url>
     <loc>http://metideas.com/2016/04/30/claude-shannon/</loc>
+    
+    <lastmod>2016-06-03T19:12:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://metideas.com/404.html</loc>
     
     <lastmod>2016-06-03T19:12:35.000Z</lastmod>
     
