@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://metideas.com/"/>
-  <updated>2016-06-11T05:49:32.000Z</updated>
+  <updated>2016-06-17T05:00:26.000Z</updated>
   <id>http://metideas.com/</id>
   
   <author>
@@ -14,6 +14,46 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vim cheatsheet</title>
+    <link href="http://metideas.com/2016/06/17/vim-cheatsheet/"/>
+    <id>http://metideas.com/2016/06/17/vim-cheatsheet/</id>
+    <published>2016-06-17T04:00:00.000Z</published>
+    <updated>2016-06-17T05:00:26.000Z</updated>
+    
+    <content type="html">&lt;blockquote&gt;&lt;p&gt;This article herein exist as a cheatsheet for Vim. The orginal article come from &lt;a href=&quot;https://gist.github.com/ldong/f05bbae89079f52cca0e&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Idong&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;h1 id=&quot;vim-shortcuts&quot;&gt;Vim shortcuts&lt;/h1&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;45&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;46&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;47&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;48&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;49&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;50&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;51&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;52&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;53&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;zz                                       Position cursor at middle of screen&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;zt                                       Position cursor at top of screen&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;zb                                       Position cursor at the bottom of screen&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;H                                        Go to the Header&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;M                                        Go to the Middle&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;L                                        Go to the Lower&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;select                                   v&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;select row(s)                            SHIFT + v&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;select blocks (columns)                  CTRL  + v&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;indent selected text                     &amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;unindent selected text                   &amp;lt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;list buffers                             :ls&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;open buffer                              :bN (N = buffer number)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;print                                    :hardcopy&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;open a file                              :e /path/to/file.txt&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;                                         :e C:\Path\To\File.txt&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sort selected rows                       :sort&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;search for word under cursor             *&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;open file under cursor                   gf&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  (absolute path or relative)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;format selected code                     =&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;select contents of entire file           ggVG&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;convert selected text to uppercase       U&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;convert selected text to lowercase       u&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;invert case of selected text             ~&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;convert tabs to spaces                   :retab&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;start recording a macro                  qX (X = key to assign macro to)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;stop recording a macro                   q&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;playback macro                           @X (X = key macro was assigned to)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;replay previously played macro *         @@&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;auto-complete a word you are typing **   CTRL + n&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;bookmark current place in file           mX (X = key to assign bookmark to)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;jump to bookmark                         `X (X = key bookmark was assigned to&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;                                             ` = back tick/tilde key)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;show all bookmarks                       :marks&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;delete a bookmark                        :delm X (X = key bookmark to delete)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;delete all bookmarks                     :delm!&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;split screen horizontally                :split&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;split screen vertically                  :vsplit&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;navigating split screens                 CTRL + w + j = move down a screen&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;                                         CTRL + w + k = move up a screen&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;                                         CTRL + w + h = move left a screen&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;                                         CTRL + w + l = move right a screen&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;close all other split screens            :only&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;*  - As with other commands in vi, you can playback a macro any number of times.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     The following command would playback the macro assigned to the key `w&amp;apos; 100&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     times: 100@w&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;** - Vim uses words that exist in your current buffer and any other buffer you&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     may have open for auto-complete suggestions.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&quot;references&quot;&gt;References:&lt;/h1&gt;&lt;p&gt;[Vim commands you wish known earlier] (http://stackoverflow.com/questions/1276403/simple-vim-commands-you-wish-youd-known-earlier)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.fprintf.net/vimCheatSheet.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Vim cheatsheet&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://bullium.com/support/vim.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Vim Commands Cheat Sheet&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://eastcoastefx.vaesite.com/vim&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;A handy guide to Vim shortcuts&lt;/a&gt;&lt;/p&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;This article herein exist as a cheatsheet for Vim. The orginal article come from &lt;a href=&quot;https://gist.github.com/ldong/f05bbae89079f52cca0e&quot;&gt;Idong&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="vim tool" scheme="http://metideas.com/tags/vim-tool/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>My Tools</title>
+    <link href="http://metideas.com/2016/06/16/My-Tool/"/>
+    <id>http://metideas.com/2016/06/16/My-Tool/</id>
+    <published>2016-06-16T23:57:57.000Z</published>
+    <updated>2016-06-17T04:59:04.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://jogjagadget.com/wp-content/uploads/2013/12/macbook-air-all-faded-and-stuff.jpg&quot; alt=&quot;My Tools&quot;&gt;&lt;/p&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;ul&gt;&lt;li&gt;Resume Review|简历修改工具: &lt;a href=&quot;https://www.jobscan.co&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;jobscan&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Mac 中的 zsh 和 Oh-my-zsh 配置| &lt;a href=&quot;http://wdxtub.com/2016/02/18/oh-my-zsh/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;zsh 全程指南&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://jogjagadget.com/wp-content/uploads/2013/12/macbook-air-all-faded-and-stuff.jpg&quot; alt=&quot;My Tools&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="tool" scheme="http://metideas.com/tags/tool/"/>
+    
+  </entry>
   
   <entry>
     <title>函数式编程</title>
@@ -56,24 +96,6 @@
     
     
       <category term="Python" scheme="http://metideas.com/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>My Tools</title>
-    <link href="http://metideas.com/2016/06/03/My-Tool/"/>
-    <id>http://metideas.com/2016/06/03/My-Tool/</id>
-    <published>2016-06-03T19:12:35.000Z</published>
-    <updated>2016-06-03T20:10:04.000Z</updated>
-    
-    <content type="html">&lt;p&gt;&lt;img src=&quot;http://jogjagadget.com/wp-content/uploads/2013/12/macbook-air-all-faded-and-stuff.jpg&quot; alt=&quot;My Tools&quot;&gt;&lt;/p&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;ul&gt;&lt;li&gt;Resume Review|简历修改工具: &lt;a href=&quot;https://www.jobscan.co&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;jobscan&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://jogjagadget.com/wp-content/uploads/2013/12/macbook-air-all-faded-and-stuff.jpg&quot; alt=&quot;My Tools&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
     
   </entry>
   
