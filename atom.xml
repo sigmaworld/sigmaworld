@@ -4,9 +4,9 @@
   <subtitle>还 不 够 笨!</subtitle>
   <link href="/blog/atom.xml" rel="self"/>
   
-  <link href="http://metideas.com/"/>
+  <link href="http://metideas.com/blog/"/>
   <updated>2016-06-17T05:00:26.000Z</updated>
-  <id>http://metideas.com/</id>
+  <id>http://metideas.com/blog/</id>
   
   <author>
     <name>Frank Lou</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Vim cheatsheet</title>
-    <link href="http://metideas.com/2016/06/17/vim-cheatsheet/"/>
-    <id>http://metideas.com/2016/06/17/vim-cheatsheet/</id>
+    <link href="http://metideas.com/blog/2016/06/17/vim-cheatsheet/"/>
+    <id>http://metideas.com/blog/2016/06/17/vim-cheatsheet/</id>
     <published>2016-06-17T04:00:00.000Z</published>
     <updated>2016-06-17T05:00:26.000Z</updated>
     
@@ -31,14 +31,14 @@
     </summary>
     
     
-      <category term="vim tool" scheme="http://metideas.com/tags/vim-tool/"/>
+      <category term="vim tool" scheme="http://metideas.com/blog/tags/vim-tool/"/>
     
   </entry>
   
   <entry>
     <title>My Tools</title>
-    <link href="http://metideas.com/2016/06/16/My-Tool/"/>
-    <id>http://metideas.com/2016/06/16/My-Tool/</id>
+    <link href="http://metideas.com/blog/2016/06/16/My-Tool/"/>
+    <id>http://metideas.com/blog/2016/06/16/My-Tool/</id>
     <published>2016-06-16T23:57:57.000Z</published>
     <updated>2016-06-17T04:59:04.000Z</updated>
     
@@ -51,14 +51,14 @@
     </summary>
     
     
-      <category term="tool" scheme="http://metideas.com/tags/tool/"/>
+      <category term="tool" scheme="http://metideas.com/blog/tags/tool/"/>
     
   </entry>
   
   <entry>
     <title>函数式编程</title>
-    <link href="http://metideas.com/2016/06/11/functional-programming/"/>
-    <id>http://metideas.com/2016/06/11/functional-programming/</id>
+    <link href="http://metideas.com/blog/2016/06/11/functional-programming/"/>
+    <id>http://metideas.com/blog/2016/06/11/functional-programming/</id>
     <published>2016-06-11T05:00:20.000Z</published>
     <updated>2016-06-11T05:49:32.000Z</updated>
     
@@ -70,17 +70,17 @@
     
     </summary>
     
-      <category term="Python" scheme="http://metideas.com/categories/Python/"/>
+      <category term="Python" scheme="http://metideas.com/blog/categories/Python/"/>
     
     
-      <category term="python,编程思想" scheme="http://metideas.com/tags/python-%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3/"/>
+      <category term="python,编程思想" scheme="http://metideas.com/blog/tags/python-%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3/"/>
     
   </entry>
   
   <entry>
     <title>Core-Python-Programming</title>
-    <link href="http://metideas.com/2016/06/03/Core-Python-Programming/"/>
-    <id>http://metideas.com/2016/06/03/Core-Python-Programming/</id>
+    <link href="http://metideas.com/blog/2016/06/03/Core-Python-Programming/"/>
+    <id>http://metideas.com/blog/2016/06/03/Core-Python-Programming/</id>
     <published>2016-06-03T20:44:01.000Z</published>
     <updated>2016-06-05T02:37:11.000Z</updated>
     
@@ -92,17 +92,17 @@
     
     </summary>
     
-      <category term="Reading" scheme="http://metideas.com/categories/Reading/"/>
+      <category term="Reading" scheme="http://metideas.com/blog/categories/Reading/"/>
     
     
-      <category term="Python" scheme="http://metideas.com/tags/Python/"/>
+      <category term="Python" scheme="http://metideas.com/blog/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>Pycharm 设置与使用记录</title>
-    <link href="http://metideas.com/2016/06/01/python-pycharm/"/>
-    <id>http://metideas.com/2016/06/01/python-pycharm/</id>
+    <link href="http://metideas.com/blog/2016/06/01/python-pycharm/"/>
+    <id>http://metideas.com/blog/2016/06/01/python-pycharm/</id>
     <published>2016-06-01T04:00:00.000Z</published>
     <updated>2016-06-03T20:32:19.000Z</updated>
     
@@ -115,14 +115,14 @@
     </summary>
     
     
-      <category term="python" scheme="http://metideas.com/tags/python/"/>
+      <category term="python" scheme="http://metideas.com/blog/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>Recorded Event ①</title>
-    <link href="http://metideas.com/2016/05/09/record/"/>
-    <id>http://metideas.com/2016/05/09/record/</id>
+    <link href="http://metideas.com/blog/2016/05/09/record/"/>
+    <id>http://metideas.com/blog/2016/05/09/record/</id>
     <published>2016-05-09T04:00:00.000Z</published>
     <updated>2016-06-03T21:08:57.000Z</updated>
     
@@ -135,14 +135,14 @@
     </summary>
     
     
-      <category term="record" scheme="http://metideas.com/tags/record/"/>
+      <category term="record" scheme="http://metideas.com/blog/tags/record/"/>
     
   </entry>
   
   <entry>
     <title>Claude Shannon, The father of the information age, Turns 1100100</title>
-    <link href="http://metideas.com/2016/04/30/claude-shannon/"/>
-    <id>http://metideas.com/2016/04/30/claude-shannon/</id>
+    <link href="http://metideas.com/blog/2016/04/30/claude-shannon/"/>
+    <id>http://metideas.com/blog/2016/04/30/claude-shannon/</id>
     <published>2016-04-30T18:43:55.000Z</published>
     <updated>2016-06-03T19:12:35.000Z</updated>
     
@@ -154,19 +154,19 @@
     
     </summary>
     
-      <category term="Droplets" scheme="http://metideas.com/categories/Droplets/"/>
+      <category term="Droplets" scheme="http://metideas.com/blog/categories/Droplets/"/>
     
-      <category term="Story" scheme="http://metideas.com/categories/Droplets/Story/"/>
+      <category term="Story" scheme="http://metideas.com/blog/categories/Droplets/Story/"/>
     
     
-      <category term="people" scheme="http://metideas.com/tags/people/"/>
+      <category term="people" scheme="http://metideas.com/blog/tags/people/"/>
     
   </entry>
   
   <entry>
     <title>Days Old</title>
-    <link href="http://metideas.com/2016/04/29/daysold/"/>
-    <id>http://metideas.com/2016/04/29/daysold/</id>
+    <link href="http://metideas.com/blog/2016/04/29/daysold/"/>
+    <id>http://metideas.com/blog/2016/04/29/daysold/</id>
     <published>2016-04-29T20:05:49.000Z</published>
     <updated>2016-06-03T19:12:35.000Z</updated>
     
@@ -178,17 +178,17 @@
     
     </summary>
     
-      <category term="Droplets" scheme="http://metideas.com/categories/Droplets/"/>
+      <category term="Droplets" scheme="http://metideas.com/blog/categories/Droplets/"/>
     
-      <category term="Code" scheme="http://metideas.com/categories/Droplets/Code/"/>
+      <category term="Code" scheme="http://metideas.com/blog/categories/Droplets/Code/"/>
     
     
   </entry>
   
   <entry>
     <title>农业工业化</title>
-    <link href="http://metideas.com/2016/01/23/%E5%86%9C%E4%B8%9A%E5%B7%A5%E4%B8%9A%E5%8C%96/"/>
-    <id>http://metideas.com/2016/01/23/农业工业化/</id>
+    <link href="http://metideas.com/blog/2016/01/23/%E5%86%9C%E4%B8%9A%E5%B7%A5%E4%B8%9A%E5%8C%96/"/>
+    <id>http://metideas.com/blog/2016/01/23/农业工业化/</id>
     <published>2016-01-23T05:00:00.000Z</published>
     <updated>2016-06-03T19:12:35.000Z</updated>
     
