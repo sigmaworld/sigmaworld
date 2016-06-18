@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>MetIdeas</title>
   <subtitle>还 不 够 笨!</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://metideas.com/"/>
   <updated>2016-06-17T05:00:26.000Z</updated>
